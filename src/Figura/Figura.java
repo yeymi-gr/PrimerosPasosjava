@@ -2,8 +2,8 @@ package Figura;
 
 public abstract class Figura {
 	
-	public String nombre;
-	static String color;
+	private String nombre;
+	private String color;
 	
 	// Constructor
 	public Figura(String nombre, String color) {
@@ -21,14 +21,14 @@ public abstract class Figura {
 		this.nombre = nombre;
 	}
 
-	public static String getColor() {
+	public String getColor() {
 		return color;
 	}
 
 	public static void setColor(String color) {
-		Figura.color = color;
+		color = color;
 	}
-
+	
 	// Clases abstractas que eredarán las demás para hacer cálculos diferentes... 
 	public abstract double area();
 	

@@ -4,6 +4,8 @@ public class Circulo extends Figura {
 
 	public double radio;
 	
+	public String hola;
+	
 	public Circulo(double radio) {
 		super("Circulo","rosado");
 		this.radio = radio;
@@ -29,7 +31,7 @@ public class Circulo extends Figura {
 
 	@Override
 	public String toString() {
-		String calcir = "Nombre -->" + nombre + "  Color -->" + color + "  Area -->" + area() + "  Perimetro -->  " + perimetro();
+		String calcir = "Nombre -->" + getNombre() + "  Color -->" + getColor() + "  Area -->" + area() + "  Perimetro -->  " + perimetro();
 		return calcir;
 	}
 

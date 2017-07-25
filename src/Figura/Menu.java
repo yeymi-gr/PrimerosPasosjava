@@ -1,9 +1,8 @@
 package Figura;
 
-import java.util.Set;
-
 public class Menu {
 
+	
 	public static void main(String[] args) {
 
 		// Instancia de cuadrado donde se envía el dato para el constructor
@@ -14,12 +13,12 @@ public class Menu {
 		Triangulo triangulo = new Triangulo(30,20,50,15);
 		System.out.println(triangulo);
 		
-		Circulo circulo = new Circulo(20);
+		Figura circulo = new Circulo(20);
 		System.out.println(circulo);		
 
 		cuadrado.setLado(10);
-		System.out.println("area después del set--->" + cuadrado);
-
+		System.out.println("area después del set--->" + cuadrado); 
+		
 
 	}
 
