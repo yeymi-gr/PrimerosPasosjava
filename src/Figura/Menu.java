@@ -14,11 +14,12 @@ public class Menu {
 		Triangulo triangulo = new Triangulo(30,20,50,15);
 		System.out.println(triangulo);
 		
+		Circulo circulo = new Circulo(20);
+		System.out.println(circulo);		
+
 		cuadrado.setLado(10);
 		System.out.println("area después del set--->" + cuadrado);
 
-		
-		
 
 	}
 
