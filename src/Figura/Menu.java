@@ -18,6 +18,7 @@ public class Menu {
 
 		cuadrado.setLado(10);
 		System.out.println("area después del set--->" + cuadrado); 
+		
 
 	}
 
